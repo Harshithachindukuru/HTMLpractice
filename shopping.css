@@ -59,7 +59,101 @@ nav .login a{
     padding: 10px;
     border-radius: 5px;
 }
-
+.headings{
+    margin: 20px 0px 0px 30px;
+}
+.categories{
+    padding: 20px 50px 0;
+    text-align: center;
+}
+.categories .row .column{
+    margin: 20px 0px;
+}
+.categories img{
+    width: 30%;
+    height: 70%;
+}
+.categories .fashiontext{
+   background-color: aqua;
+   margin: 0px 40px;
+}
+footer ul {
+    list-style: none;
+margin: 30px 50px ;
+}
+footer {
+    background-color: black;
+    color: #fff;;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer .items{
+    display: flex; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .socialmedia{
+    /* padding: 0px 10%; */
+    padding-bottom:10px ;
+}
+footer .socialmedia ul{
+    display: flex;
+   justify-content: center;
+}
+.socialmedia ul li {
+    /* padding: 0px 20px; */
+    font-size: 30px;
+    /* width: 30px; */
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    margin: 0px 30px;
+    /* border-radius: 50%; */
+  }
+  .socialmedia i{
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
 @media screen and (max-width: 480px) {
     nav  li a,button {
         display: none;
@@ -76,11 +170,40 @@ nav .login a{
 .container{
     height: 400px;
 }
-
+.container button{
+    display: block;
+}
+.container .content{
+    padding-top: 0px;
+}
+.container .content h1{
+    font-size: 3rem;
   }
+footer .items{
+    flex-direction: column;
+}
+footer .items ul{
+    padding: 20px ;
+}
+footer .socialmedia{
+    padding: 0px;
+}
+
+footer .socialmedia ul li{ 
+    margin: 0px;
+    margin: 0px 4px;
+}
+footer .socialmedia ul{
+    padding: 0px;
+    margin: 0px;
+}
+}
   @media screen and (max-width:1030px){
     .container{
         display: flex;
         height: 400px;
+    }
+    footer .items ul{
+        margin: 0px;
     }
   }
