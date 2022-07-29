@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="signin.css">
 </head>
 <body>
-    <form>
+    <form id="myForm" >
         <h1>Login</h1>
+        <div class="form-control">
         <label for="uname">Username</label>
-        <input type="text" placeholder="Username" name="uname" required>
-        <label for="uname">Password</label>
-        <input type="text" placeholder="Password" name="password" required>
+        <input type="text" id="uname" placeholder="Username" name="uname" >
+        <small></small>
+    </div>
+    <div class="form-control">
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="Password" name="password" >
+        <small></small>
+    </div>
         <button type="submit">Signin</button>
     </form>
     <script src="signin.js"></script>
